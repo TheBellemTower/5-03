@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created on: Sept 2018
+// Created by: Ethan Bellem
+// Created for: ICS3U
+// program uses structures to make an adress
+// this will be commented out when code moved to Xcode
+
+struct Student {
+    var nameOfRecipient: String
+    var streetNameAndNumber: String
+    var city: String
+    var province: String
+    var postalCode: String
+    
+}
+
+let name = ask("Enter First and Last Name")
+let streetNAN = ask("Enter Street Name and number")
+let cityName = ask("enter city name")
+let provineName = ask("enter your province")
+let postalCodeN = ask("enter postal code")
+
+let aSingleStudent = Student(nameOfRecipient: name, streetNameAndNumber: streetNAN, city: cityName, province: provineName, postalCode: postalCodeN)
+
+show(aSingleStudent.nameOfRecipient)
+show(aSingleStudent.streetNameAndNumber)
+show(aSingleStudent.city)
+show(aSingleStudent.province)
+show(aSingleStudent.postalCode)
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 880}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 72}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
